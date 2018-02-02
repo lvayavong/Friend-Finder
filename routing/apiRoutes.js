@@ -23,9 +23,6 @@ module.exports = function(app) {
     res.json(friends);
   });
 
-  app.get("/public/survey", function(req, res) {
-    res.json(survey);
-  });
 
   // public POST Requests
   // Below code handles when a user submits a form and thus submits public to the server.
