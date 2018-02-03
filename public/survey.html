@@ -9,13 +9,11 @@
 
     <!-- Bootstrap -->
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 
-<!-- Latest compiled and minified JavaScript -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
   </head>
   <body>
    
@@ -27,13 +25,13 @@
         <div class="panel-heading">
           <h3 class="panel-title">About You</h3>
         </div>
-     
+     <form>
         <div class="panel-body">
            Name (required)
           </div>
         </div>
         <div class="input-group">
-          <span class="input-group-addon" id="basic-addon1"></span>
+          <span class="input-group-addon" class="basic-addon1"></span>
           <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
         </div>
        
@@ -42,7 +40,7 @@
         </div>
       </div>
       <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1"></span>
+        <span class="input-group-addon" class="basic-addon1"></span>
         <input type="text" class="form-control" placeholder="Photo" aria-describedby="basic-addon1">
       </div>
      
@@ -53,20 +51,20 @@
         <p>I like pie.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest1" class="option1" value="1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest1" class="option2" value="2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest1" class="option3" value="3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest1" class="option4" value="4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest1" class="option5" value="5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
       
@@ -75,20 +73,20 @@
         <p>I am practical.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest2" class="option1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest2" class="option2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest2" class="option3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest2" class="option4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest2" class="option5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
 
@@ -97,20 +95,20 @@
         <p>I am lucky.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest3" class="option1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest3" class="option2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest3" class="option3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest3" class="option4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest3" class="option5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
 
@@ -119,20 +117,20 @@
         <p>I am a dreamer.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest4" class="option1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest4" class="option2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest4" class="option3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest4" class="option4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest4" class="option5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
 
@@ -141,20 +139,20 @@
         <p>I am religious.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest5" class="option1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest5" class="option2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest5" class="option3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest5" class="option4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest5" class="option5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
 
@@ -163,20 +161,20 @@
         <p>I love to learn.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest6" class="option1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest6" class="option2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest6" class="option3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest6" class="option4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest6" class="option5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
 
@@ -185,20 +183,20 @@
         <p>I am progressive.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest7" class="option1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest7" class="option2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest7" class="option3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest7" class="option4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest7" class="option5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
 
@@ -207,20 +205,20 @@
         <p>I like philsophy.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest8" class="option1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest8" class="option2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest8" class="option3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest8" class="option4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest8" class="option5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
 
@@ -229,20 +227,20 @@
         <p>I like movies.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest9" class="option1" >  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest9" class="option2" >  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest9" class="option3" >  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest9" class="option4" >  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest9" class="option5" >  5 (strongly agree)
     </label>
       </div>
 
@@ -251,31 +249,35 @@
         <p>I like mythology.</p>
       </div>
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off">  1 (strongly disagree)
+        <label class="btn btn-primary">
+          <input type="radio" name="quest10" class="option1" autocomplete="off">  1 (strongly disagree)
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off">  2
+          <input type="radio" name="quest10" class="option2" autocomplete="off">  2
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off">  3
+          <input type="radio" name="quest10" class="option3" autocomplete="off">  3
         </label>
         <label class="btn btn-primary">
-          <input type="radio" name="options" id="option4" autocomplete="off">  4
+          <input type="radio" name="quest10" class="option4" autocomplete="off">  4
         </label>
     <label class="btn btn-primary">
-      <input type="radio" name="options" id="option5" autocomplete="off">  5 (strongly agree)
+      <input type="radio" name="quest10" class="option5" autocomplete="off">  5 (strongly agree)
     </label>
       </div>
      
       <div>
-        <button type="submit" input type = "submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">Submit</button>
       </div>
       
     </form>
     
   </body>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script type = "text/javascript">
+    $.post("/survey",{data:"it worked"},function(friend){console.log(friend);
+    } )
+    
+  </script>
+
 </html>

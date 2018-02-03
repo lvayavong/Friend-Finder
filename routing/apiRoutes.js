@@ -4,9 +4,8 @@
 // These public sources hold arrays of information on table-public, waitinglist, etc.
 // ===============================================================================
 var path = require ("path");
-var home = require("../public/home.html");
-var survey = require("../public/survey.html");
-var friends = require('../data/friends.js');
+// var survey = require("../public/survey.html");
+var friends = require('../app/data/friends.js');
 
 // ===============================================================================
 // ROUTING
@@ -32,18 +31,13 @@ module.exports = function(app) {
   // Then the server saves the public to the friends array)
   // ---------------------------------------------------------------------------
 
-  app.post("/public/friends", function(req, res) {
+  app.post("/survey", function(req, res) {
     // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
     // It will do this by sending out the value "true" have a table
     // req.body is available since we're using the body-parser middleware
-    if (home.length < 5) {
-      home.push(req.body);
-      res.json(true);
-    }
-    else {
-      survey.push(req.body);
-      res.json(false);
-    }
+    console.log(req.body);
+    res.json(friends[0])
+
   });
 
 };
